@@ -1,0 +1,21 @@
+.wrapper {
+    padding-top: 40px;
+    width: 100%;
+    height: 100vh;
+    background-color: teal;
+    color: yellow;
+}
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.cards {
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #4e0f93;
+}
